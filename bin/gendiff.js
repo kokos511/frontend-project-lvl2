@@ -9,4 +9,7 @@ program
   .version('0.0.1')
   .helpOption('-h, --help','output usage information');
 
+program
+  .option('-f, --format <type>', 'output format');
+
 program.parse();
